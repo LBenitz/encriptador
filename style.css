@@ -1,0 +1,68 @@
+body {
+    background-color: #f3f5fc;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#logo {
+    margin: 15px;
+}
+
+main {
+    display: flex;
+}
+
+.entrada {
+    width: 65%;
+    margin: 10px;
+    height: 600px;
+}
+
+#parrafo {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.salida {
+    width: 30%;
+    margin: 10px;
+}
+
+.text-area {
+    width: 90%;
+    height: 80%;
+    background-color: transparent;
+    border: none;
+    padding: 20px;
+    font-size: 3em;
+    text-align: center;
+}
+
+.texto-encriptado {
+    width: 90%;
+    height: 87%;
+    border-radius: 15px;
+    border-style: none;
+    padding: 20px;
+    font-size: 2.5em;
+    text-align: center;
+    background-image: url(Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#boton {
+    font-size: 2em;
+    width: 40%;
+    height: 10%;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+
+#boton-copiar {
+    font-size: 2em;
+    width: 60%;
+    height: 10%;
+    margin-left: 80px;
+    border-radius: 5px;
+}
+
